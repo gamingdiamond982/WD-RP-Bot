@@ -243,7 +243,7 @@ async def _credits(ctx: Context):
     shows the credits
     """
     embed = Embed(colour=ctx.author.colour, title="Credits",
-            description="Credit goes to gamingdiamond982 and salmmanfred for developing this bot")
+                  description="Credit goes to gamingdiamond982 and salmmanfred for developing this bot")
     await ctx.reply(embed=embed)
 
 
